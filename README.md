@@ -77,11 +77,13 @@
 
 #### 访问静态资源
 
-- 默认路径：可以直接在浏览器访问static下的静态资源
-- 自定义路径
+- 默认映射到`resources/static`下的文件
+- 自定义映射路径：配置`spring.mvc.static-path-pattern`
 
 #### 处理文件上传
 
-- 处理流程：使用`MultipartFile`接收文件，并存储到Web服务器
+- 浏览器端：`Content-Type`必须为`multipart/form-data`；传过来的字段必须与接收的字段一致
+- 服务器端：使用`MultipartFile`和`HttpServletRequest`接收文件，并存储到Web服务器
+- 通过浏览器访问上传的文件：配置`spring.web.resources.static-locations`来映射到Web服务器的地址
 
 #### 拦截器
