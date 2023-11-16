@@ -36,9 +36,9 @@
 
 - 使用SpringBoot和Maven创建第一个Java项目
 
-  ![image-20231115232150774](C:\Users\ChenH\AppData\Roaming\Typora\typora-user-images\image-20231115232150774.png)
+  ![image-20231115232150774](https://cdn.jsdelivr.net/gh/Jiang-yiler/Image-hosting-service@main/img/image-20231115232150774.png)
 
-  ![image-20231115232840802](C:\Users\ChenH\AppData\Roaming\Typora\typora-user-images\image-20231115232840802.png)
+  ![image-20231115232840802](https://cdn.jsdelivr.net/gh/Jiang-yiler/Image-hosting-service@main/img/image-20231115232840802.png)
 
   > 遇到的问题及解决方法：
   >
@@ -96,7 +96,7 @@
 
 对于全局统一的操作，可以提取到拦截器中实现，常见使用场景有权限检查、读取cookie、性能监控等
 
-![image-20231115225034527](C:\Users\ChenH\AppData\Roaming\Typora\typora-user-images\image-20231115225034527.png)
+![image-20231115225034527](https://cdn.jsdelivr.net/gh/Jiang-yiler/Image-hosting-service@main/img/image-20231115225034527.png)
 
 - 创建拦截器：使用`HandlerInterceptor`接口
 - 注册拦截器：使用`WebMvcConfigurer`定义拦截路径
