@@ -32,7 +32,7 @@
 
 > SSM：Spring + Spring MVC + Mybatis
 >
-> SpringBoot的特点：
+> SpringBoot的特点：内嵌Tomcat、Jetty服务器；简化Maven配置，开箱即用
 
 - 使用SpringBoot和Maven创建第一个Java项目
 
